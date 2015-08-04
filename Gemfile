@@ -20,6 +20,7 @@ gem 'mongoid'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-generators'
 gem 'bootstrap-sass'
+gem 'sass-rails'
 # Use jquery as the JavaScript library
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -44,6 +45,7 @@ group :development, :test do
 	gem 'rspec-rails'
 	gem 'rspec-its'
 	gem 'shoulda-matchers'
+	gem "flutie"
 	gem 'konacha'
 	gem 'factory_girl_rails'
 	gem 'database_cleaner'
