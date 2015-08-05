@@ -67,15 +67,11 @@ group :development, :test do
 	gem 'pry-nav'
 	gem 'pry-coolline'
 	gem 'pry-awesome_print'
-	gem 'pry-stack_explorer'
 	gem 'pry-exception_explorer'
-	gem 'pry-rescue'
-	gem 'pry-editline'
-	gem 'pry-git'
+	gem 'pry-stack_explorer'
 
 	gem 'meta_request'
 	gem 'quiet_assets'
-	gem 'better_errors'
 
 
 
