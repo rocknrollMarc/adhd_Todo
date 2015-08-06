@@ -8,6 +8,10 @@ class Project
 		@tasks = []
 	end
 
+	def incomplete_tasks
+		tasks.reject(&:complete?)
+	end
+
 	def done?
 		tasks.reject(&:complete?).empty?
 	end
