@@ -56,9 +56,7 @@ group :development, :test do
 	gem 'capybara'
 	gem 'mongoid-rspec'
 
-	gem 'guard-rails'
 	gem 'guard-rspec'
-	gem 'guard-bundler'
 	gem 'terminal-notifier-guard'
 	gem 'ruby-growl'
 
