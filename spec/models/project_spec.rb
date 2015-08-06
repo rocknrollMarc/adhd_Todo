@@ -33,7 +33,7 @@ RSpec.describe Project do
 		end
 
 		it 'can calculate total size' do
-			expect(project.totalsize).to eq(7)
+			expect(project.total_size).to eq(7)
 		end
 
 		it 'can calculate remaining size' do
